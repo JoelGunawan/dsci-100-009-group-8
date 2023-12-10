@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>e070267a3fb94046a838708cc62ab122</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="dsci-100-section-009-group-8-project-final-report"
+class="cell markdown">
+<h1>DSCI 100 Section 009 Group 8 Project Final Report</h1>
+</section>
+<section id="introduction" class="cell markdown">
+<h2>Introduction</h2>
+<h3 id="background-information">Background Information</h3>
+<p>The UEFA Champions League is one of the most presitigous and widely
+followed club football competitions. The competition brings elite
+football clubs from across Europe together in competition.The data we
+chose to analyze is about game statistics. We are using the keystats.csv
+dataset. Our data set contains serial number, player name, club name,
+position, and various game statistics such as distance traveled on the
+field, number of goals, tackles attempted, etc. Our goal is to use the
+game statistics like number of goals and distance traveled on the field
+to predict the positions of the players.</p>
+<h3 id="questions">Questions</h3>
+<p>Predict the position of the player that participated in UEFA
+Champions League 2021-2022 based on the statistics that we have, such as
+goals, distance covered, etc.</p>
+<h3 id="dataset-description">Dataset Description</h3>
+<p>The dataset source is the UEFA player statistics for every player in
+the UEFA Champions League in the 2021-2022 season scraped by Azmine
+Toushik Wasi from the UEFA website.</p>
+</section>
+<section id="preliminary-exploratory-data-analysis"
+class="cell markdown">
+<h2>Preliminary Exploratory Data Analysis</h2>
+<h3 id="reading-the-data">Reading the Data</h3>
+<p>First of all, the data has been pushed to our group's github
+repository. Therefore, we can use the read_csv function to read all the
+data we need (our data is separated into several files). First of all,
+we need to initialize the libraries we are going to use</p>
+</section>
+<div class="cell code" data-execution_count="1"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb1"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(repr)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidymodels)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kknn)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GGally)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repr.matrix.max.rows =</span> <span class="dv">6</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>-- Attaching core tidyverse packages ------------------------ tidyverse 2.0.0 --
+v dplyr     1.1.3     v readr     2.1.4
+v forcats   1.0.0     v stringr   1.5.0
+v ggplot2   3.4.4     v tibble    3.2.1
+v lubridate 1.9.3     v tidyr     1.3.0
+v purrr     1.0.2     
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+i Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+-- Attaching packages -------------------------------------- tidymodels 1.1.1 --
+
+v broom        1.0.5     v rsample      1.2.0
+v dials        1.2.0     v tune         1.1.2
+v infer        1.0.5     v workflows    1.1.3
+v modeldata    1.2.0     v workflowsets 1.0.1
+v parsnip      1.1.1     v yardstick    1.2.0
+v recipes      1.0.8     
+
+-- Conflicts ----------------------------------------- tidymodels_conflicts() --
+x scales::discard() masks purrr::discard()
+x dplyr::filter()   masks stats::filter()
+x recipes::fixed()  masks stringr::fixed()
+x dplyr::lag()      masks stats::lag()
+x yardstick::spec() masks readr::spec()
+x recipes::step()   masks stats::step()
+* Learn how to get started at https://www.tidymodels.org/start/
+
+Registered S3 method overwritten by &#39;GGally&#39;:
+  method from   
+  +.gg   ggplot2
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The dataset we will use are the key stats, defending, and
+distribution dataset. We will read them using the read_csv function</p>
+</div>
+<div class="cell code" data-execution_count="2"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb3"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>key_stats <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/JoelGunawan/dsci-100-009-group-8/main/data/key_stats.csv&quot;</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>defending <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/JoelGunawan/dsci-100-009-group-8/main/data/defending.csv&quot;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>distribution <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/JoelGunawan/dsci-100-009-group-8/main/data/distributon.csv&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Rows: 747 Columns: 8
+-- Column specification --------------------------------------------------------
+Delimiter: &quot;,&quot;
+chr (4): player_name, club, position, distance_covered
+dbl (4): minutes_played, match_played, goals, assists
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 627 Columns: 10
+-- Column specification --------------------------------------------------------
+Delimiter: &quot;,&quot;
+chr (4): serial, player_name, club, position
+dbl (6): balls_recoverd, tackles, t_won, t_lost, clearance_attempted, match_...
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 608 Columns: 12
+-- Column specification --------------------------------------------------------
+Delimiter: &quot;,&quot;
+chr (4): serial, player_name, club, position
+dbl (8): pass_accuracy, pass_attempted, pass_completed, cross_accuracy, cros...
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+</code></pre>
+</div>
+</div>
+<section id="cleaning-and-wrangling" class="cell markdown">
+<h3>Cleaning and Wrangling</h3>
+<p>The data we have is separated into several different datasets,
+therefore we will merge the dataset together using the merge function,
+which will merge two different data frames based on a certain
+property</p>
+</section>
+<div class="cell code" data-execution_count="3"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>football <span class="ot">&lt;-</span> <span class="fu">merge</span>(key_stats, defending, <span class="at">by =</span> <span class="st">&quot;player_name&quot;</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">merge</span>(distribution, <span class="at">by =</span> <span class="st">&quot;player_name&quot;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>football</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 626 x 28</caption>
+<thead>
+	<tr><th scope=col>player_name</th><th scope=col>club.x</th><th scope=col>position.x</th><th scope=col>minutes_played</th><th scope=col>match_played.x</th><th scope=col>goals</th><th scope=col>assists</th><th scope=col>distance_covered</th><th scope=col>serial.x</th><th scope=col>club.y</th><th scope=col>...</th><th scope=col>club</th><th scope=col>position</th><th scope=col>pass_accuracy</th><th scope=col>pass_attempted</th><th scope=col>pass_completed</th><th scope=col>cross_accuracy</th><th scope=col>cross_attempted</th><th scope=col>cross_complted</th><th scope=col>freekicks_taken</th><th scope=col>match_played</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>...</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td><span style=white-space:pre-wrap>&lt;U+00C1&gt;lvarez            </span></td><td><span style=white-space:pre-wrap>Ajax       </span></td><td>Midfielder</td><td> 558</td><td> 7</td><td>0</td><td>0</td><td><span style=white-space:pre-wrap>73   </span></td><td>121</td><td><span style=white-space:pre-wrap>Ajax       </span></td><td>...</td><td><span style=white-space:pre-wrap>Ajax       </span></td><td>Midfielder</td><td>93.3</td><td>363</td><td>340</td><td> 0</td><td>1</td><td>0</td><td> 7</td><td> 7</td></tr>
+	<tr><td>&lt;U+00C9&gt;der Milit&lt;U+00E3&gt;o</td><td>Real Madrid</td><td><span style=white-space:pre-wrap>Defender  </span></td><td>1076</td><td>12</td><td>0</td><td>0</td><td>110.4</td><td>01 </td><td>Real Madrid</td><td>...</td><td>Real Madrid</td><td><span style=white-space:pre-wrap>Defender  </span></td><td>87.5</td><td>643</td><td>563</td><td> 0</td><td>2</td><td>0</td><td>17</td><td>12</td></tr>
+	<tr><td><span style=white-space:pre-wrap>&lt;U+00D3&gt;liver Torres      </span></td><td><span style=white-space:pre-wrap>Sevilla    </span></td><td>Midfielder</td><td> 168</td><td> 4</td><td>0</td><td>0</td><td>25.8 </td><td>479</td><td><span style=white-space:pre-wrap>Sevilla    </span></td><td>...</td><td><span style=white-space:pre-wrap>Sevilla    </span></td><td>Midfielder</td><td>79.5</td><td>122</td><td>105</td><td>20</td><td>5</td><td>1</td><td> 2</td><td> 4</td></tr>
+	<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td></td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+	<tr><td>Zeki &lt;U+00C7&gt;elik</td><td><span style=white-space:pre-wrap>LOSC     </span></td><td><span style=white-space:pre-wrap>Defender  </span></td><td>591</td><td>7</td><td>0</td><td>1</td><td>71.3</td><td>121</td><td><span style=white-space:pre-wrap>LOSC     </span></td><td>...</td><td><span style=white-space:pre-wrap>LOSC     </span></td><td><span style=white-space:pre-wrap>Defender  </span></td><td>78.0</td><td>297</td><td>233</td><td>33</td><td>12</td><td> 4</td><td>9</td><td>7</td></tr>
+	<tr><td>Zinchenko        </td><td>Man. City</td><td>Defender  </td><td>501</td><td>8</td><td>0</td><td>1</td><td>64.4</td><td>102</td><td>Man. City</td><td>...</td><td>Man. City</td><td>Defender  </td><td>88.0</td><td>356</td><td>314</td><td>23</td><td>13</td><td> 3</td><td>4</td><td>8</td></tr>
+	<tr><td>Ziyech           </td><td>Chelsea  </td><td>Midfielder</td><td>446</td><td>9</td><td>1</td><td>2</td><td>53.5</td><td>317</td><td>Chelsea  </td><td>...</td><td>Chelsea  </td><td>Midfielder</td><td>76.8</td><td>240</td><td>186</td><td>26</td><td>41</td><td>11</td><td>3</td><td>9</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown">
+<p>We will wrangle the data in several ways before we can use it. First
+of all, we will change the position to a factor because it is a
+categorical value. After that, the distance covered initially given is
+stored in a character value, but we need it as a numeric. Therefore, we
+will convert it to a numeric column. After that, we will remove all
+goalkeepers from our model, because the position of goalkeeper is
+concrete and predicting which players are goalkeepers are not of
+relevance to anyone because they are so distinct. Finally, we will
+select the columns we want to use</p>
+</div>
+<section id="variables-and-columns-used" class="cell markdown">
+<h3>Variables and Columns Used</h3>
+<p>We will take the data and select the columns that are relevant to our
+prediction. In this case we choose goals, distance covered, passes
+attempted, tackles, and attempted clearances. We chose these variables
+because they or some combination of variables would typically be
+different based on the position. Offensive players score higher number
+of goals. Defenders and midfielders tend to have higher passes
+attempted. The most tackles come from offensive players pressing the
+opposition and defenders in defense. Finally, nearly all attempted
+clearances are done by defenders.</p>
+</section>
+<div class="cell code" data-execution_count="4"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb6"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>football_data <span class="ot">&lt;-</span> football <span class="sc">|&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">position =</span> <span class="fu">as_factor</span>(position)) <span class="sc">|&gt;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">distance_covered =</span> <span class="fu">as.numeric</span>(distance_covered)) <span class="sc">|&gt;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(position <span class="sc">!=</span> <span class="st">&quot;Goalkeeper&quot;</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(position, goals, distance_covered, pass_attempted, tackles, clearance_attempted)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>football_data</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 614 x 6</caption>
+<thead>
+	<tr><th scope=col>position</th><th scope=col>goals</th><th scope=col>distance_covered</th><th scope=col>pass_attempted</th><th scope=col>tackles</th><th scope=col>clearance_attempted</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>Midfielder</td><td>0</td><td> 73.0</td><td>363</td><td>19</td><td> 7</td></tr>
+	<tr><td>Defender  </td><td>0</td><td>110.4</td><td>643</td><td>19</td><td>32</td></tr>
+	<tr><td>Midfielder</td><td>0</td><td> 25.8</td><td>122</td><td> 0</td><td> 0</td></tr>
+	<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+	<tr><td>Defender  </td><td>0</td><td>71.3</td><td>297</td><td>8</td><td>8</td></tr>
+	<tr><td>Defender  </td><td>0</td><td>64.4</td><td>356</td><td>6</td><td>8</td></tr>
+	<tr><td>Midfielder</td><td>1</td><td>53.5</td><td>240</td><td>5</td><td>1</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown">
+<p>We will split the data into training and testing datasets</p>
+</div>
+<div class="cell code" data-execution_count="5"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb7"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set seed so the workflow is reproducible</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">5000</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>football_split <span class="ot">&lt;-</span> <span class="fu">initial_split</span>(football_data, <span class="at">prop =</span> <span class="fl">0.75</span>, <span class="at">strata =</span> position)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>football_train <span class="ot">&lt;-</span> <span class="fu">training</span>(football_split)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>football_test <span class="ot">&lt;-</span> <span class="fu">testing</span>(football_split)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>football_train</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A data.frame: 459 x 6</caption>
+<thead>
+	<tr><th scope=col>position</th><th scope=col>goals</th><th scope=col>distance_covered</th><th scope=col>pass_attempted</th><th scope=col>tackles</th><th scope=col>clearance_attempted</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>Defender</td><td>0</td><td>110.4</td><td>643</td><td>19</td><td>32</td></tr>
+	<tr><td>Defender</td><td>0</td><td> 46.3</td><td>225</td><td> 6</td><td>24</td></tr>
+	<tr><td>Defender</td><td>1</td><td> 36.9</td><td>259</td><td> 3</td><td>19</td></tr>
+	<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+	<tr><td>Midfielder</td><td>1</td><td>59.1</td><td>295</td><td>8</td><td>6</td></tr>
+	<tr><td>Midfielder</td><td>0</td><td>24.3</td><td> 66</td><td>5</td><td>3</td></tr>
+	<tr><td>Midfielder</td><td>0</td><td>54.1</td><td>218</td><td>8</td><td>4</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<section id="data-summary" class="cell markdown">
+<h3>Data Summary</h3>
+<p>First, let us look at the amount of players in each position</p>
+</section>
+<div class="cell code" data-execution_count="6"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb8"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>pos_count <span class="ot">&lt;-</span> football_train <span class="sc">|&gt;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(position) <span class="sc">|&gt;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarize</span>(<span class="at">amount =</span> <span class="fu">n</span>())</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>pos_count</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 3 x 2</caption>
+<thead>
+	<tr><th scope=col>position</th><th scope=col>amount</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;int&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>Midfielder</td><td>189</td></tr>
+	<tr><td>Defender  </td><td>178</td></tr>
+	<tr><td>Forward   </td><td> 92</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown">
+<p>We will check how many NA values are in our dataset</p>
+</div>
+<div class="cell code" data-execution_count="7"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb9"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>na_data <span class="ot">&lt;-</span> football_train <span class="sc">|&gt;</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(position) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarize</span>(<span class="at">cntna =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(goals<span class="sc">:</span>clearance_attempted)))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>na_data</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>Warning message:
+&quot;There were 3 warnings in `summarize()`.
+The first warning was:
+i In argument: `cntna = sum(is.na(goals:clearance_attempted))`.
+i In group 1: `position = Midfielder`.
+Caused by warning in `goals:clearance_attempted`:
+! numerical expression has 189 elements: only the first used
+i Run `dplyr::last_dplyr_warnings()` to see the 2 remaining warnings.&quot;
+</code></pre>
+</div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 3 x 2</caption>
+<thead>
+	<tr><th scope=col>position</th><th scope=col>cntna</th></tr>
+	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;int&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>Midfielder</td><td>0</td></tr>
+	<tr><td>Defender  </td><td>0</td></tr>
+	<tr><td>Forward   </td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell markdown">
+<p>We do not have any NA data because the NA data has been removed when
+we were merging the dataset previously</p>
+</div>
+<section id="data-visualization" class="cell markdown">
+<h3>Data Visualization</h3>
+<p>First, we will try to visualize one of the two predictor variables we
+will use, which are the clearances attempted and tackles. We will
+visualize the data in a scatter plot</p>
+</section>
+<div class="cell code" data-execution_count="8"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb11"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repr.plot.width =</span> <span class="dv">8</span>, <span class="at">repr.plot.height =</span> <span class="dv">8</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>football_plot <span class="ot">&lt;-</span> football_train <span class="sc">|&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> clearance_attempted, <span class="at">y =</span> tackles, <span class="at">color =</span> position)) <span class="sc">+</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.4</span>) <span class="sc">+</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Attempted Clearance&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Tackles&quot;</span>, <span class="at">color =</span> <span class="st">&quot;Position&quot;</span>)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>football_plot</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e8fd0b27d5c40f5b0d81387aa4bf13a/0657b40436e21d29fe2c497ec010ff6d280911bb.png"
+width="480" height="480" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>As the visualization demonstrates, most defenders have high numbers
+of attempted clearances (the bottom right of the graph). In addition,
+most midfielders have a high number of tackles (the top left of the
+graph).</p>
+</div>
+<div class="cell markdown">
+<p>We will visualize all pairs of the columns we chose</p>
+</div>
+<div class="cell code" data-execution_count="9"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb12"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repr.plot.width =</span> <span class="dv">20</span>, <span class="at">repr.plot.height =</span> <span class="dv">20</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>pairs_plot <span class="ot">&lt;-</span> <span class="fu">ggpairs</span>(football_train, <span class="at">columns =</span> <span class="dv">2</span><span class="sc">:</span><span class="fu">ncol</span>(football_train), <span class="fu">aes</span>(<span class="at">color =</span> position, <span class="at">alpha =</span> <span class="fl">0.2</span>)) <span class="sc">+</span> </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>))</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>pairs_plot</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e8fd0b27d5c40f5b0d81387aa4bf13a/8dc393725cb5d5f78a9cf373415a38dadad94c84.png"
+width="1200" height="1200" /></p>
+</div>
+</div>
+<section id="result-visualization-methods" class="cell markdown">
+<h3>Result Visualization Methods</h3>
+<p>We will visualize our training results using a line graph
+representing the accuracy of our predictions across several values. For
+the testing results, we can simply use the accuracy to measure our
+results. This is because we do not have a particular category of
+interest.</p>
+</section>
+<section id="data-analysis" class="cell markdown">
+<h3>Data Analysis</h3>
+</section>
+<div class="cell markdown">
+<p>We are going to perform the data analysis using the KNN algorithm. In
+this analysis, we will try K values from 2 to 30 with step of 1 to find
+the optimal K value.</p>
+</div>
+<div class="cell markdown">
+<p>The following is the code for finding the optimal K value of the
+KNN.</p>
+</div>
+<div class="cell code" data-execution_count="10"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb13"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">5000</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>training_spec <span class="ot">&lt;-</span> <span class="fu">nearest_neighbor</span>(<span class="at">weight_func =</span> <span class="st">&quot;rectangular&quot;</span>, <span class="at">neighbors =</span> <span class="fu">tune</span>()) <span class="sc">|&gt;</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">set_engine</span>(<span class="st">&quot;kknn&quot;</span>) <span class="sc">|&gt;</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">set_mode</span>(<span class="st">&quot;classification&quot;</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>knn_recipe <span class="ot">&lt;-</span> <span class="fu">recipe</span>(position <span class="sc">~</span> ., <span class="at">data =</span> football_train) <span class="sc">|&gt;</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">step_scale</span>(<span class="fu">all_predictors</span>()) <span class="sc">|&gt;</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">step_center</span>(<span class="fu">all_predictors</span>())</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>training_vfold <span class="ot">&lt;-</span> <span class="fu">vfold_cv</span>(<span class="at">data =</span> football_train, <span class="at">v =</span> <span class="dv">10</span>, <span class="at">strata =</span> position)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>k_vals <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">neighbors =</span> <span class="fu">seq</span>(<span class="at">from =</span> <span class="dv">1</span>, <span class="at">to =</span> <span class="dv">50</span>, <span class="at">by =</span> <span class="dv">1</span>))</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>training_fit <span class="ot">&lt;-</span> <span class="fu">workflow</span>() <span class="sc">|&gt;</span></span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">add_recipe</span>(knn_recipe) <span class="sc">|&gt;</span></span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">add_model</span>(training_spec) <span class="sc">|&gt;</span></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">tune_grid</span>(<span class="at">resamples =</span> training_vfold, <span class="at">grid =</span> k_vals)</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>training_metrics <span class="ot">&lt;-</span> training_fit <span class="sc">|&gt;</span></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">collect_metrics</span>() <span class="sc">|&gt;</span></span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(.metric <span class="sc">==</span> <span class="st">&quot;accuracy&quot;</span>)</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>training_metrics</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&gt; A | warning: No observations were detected in `truth` for level(s): &#39;Goalkeeper&#39;
+               Computation will proceed by ignoring those levels.
+
+There were issues with some computations   A: x1
+
+There were issues with some computations   A: x2
+
+There were issues with some computations   A: x6
+
+There were issues with some computations   A: x10
+
+There were issues with some computations   A: x10
+
+
+
+</code></pre>
+</div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 50 x 7</caption>
+<thead>
+	<tr><th scope=col>neighbors</th><th scope=col>.metric</th><th scope=col>.estimator</th><th scope=col>mean</th><th scope=col>n</th><th scope=col>std_err</th><th scope=col>.config</th></tr>
+	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>1</td><td>accuracy</td><td>multiclass</td><td>0.6335746</td><td>10</td><td>0.01895652</td><td>Preprocessor1_Model01</td></tr>
+	<tr><td>2</td><td>accuracy</td><td>multiclass</td><td>0.6335746</td><td>10</td><td>0.01895652</td><td>Preprocessor1_Model02</td></tr>
+	<tr><td>3</td><td>accuracy</td><td>multiclass</td><td>0.6823801</td><td>10</td><td>0.02509471</td><td>Preprocessor1_Model03</td></tr>
+	<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+	<tr><td>48</td><td>accuracy</td><td>multiclass</td><td>0.6511823</td><td>10</td><td>0.02194116</td><td>Preprocessor1_Model48</td></tr>
+	<tr><td>49</td><td>accuracy</td><td>multiclass</td><td>0.6533100</td><td>10</td><td>0.02043824</td><td>Preprocessor1_Model49</td></tr>
+	<tr><td>50</td><td>accuracy</td><td>multiclass</td><td>0.6534088</td><td>10</td><td>0.01935942</td><td>Preprocessor1_Model50</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb15"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repr.plot.width =</span> <span class="dv">8</span>, <span class="at">repr.plot.height =</span> <span class="dv">8</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>accuracy_plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(training_metrics, <span class="fu">aes</span>(<span class="at">x =</span> neighbors, <span class="at">y =</span> mean)) <span class="sc">+</span> </span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_line</span>() <span class="sc">+</span> </span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Neighbors&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Accuracy Estimate&quot;</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>accuracy_plot</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e8fd0b27d5c40f5b0d81387aa4bf13a/0b4799b45530d413a79e9db589afdddd9cbd1eb2.png"
+width="480" height="480" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>As we can see, the maximum accuracy is when K = 3. As a result, we
+will pick K = 4 because it is a larger value and it is more stable
+(because K = 3 might be so small that a slight change in value might
+produce a large change in the result). The following is the code for the
+final model.</p>
+</div>
+<div class="cell code" data-execution_count="12"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb16"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>knn_spec <span class="ot">&lt;-</span> <span class="fu">nearest_neighbor</span>(<span class="at">weight_func =</span> <span class="st">&quot;rectangular&quot;</span>, <span class="at">neighbors =</span> <span class="dv">4</span>) <span class="sc">|&gt;</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">set_engine</span>(<span class="st">&quot;kknn&quot;</span>) <span class="sc">|&gt;</span>   </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">set_mode</span>(<span class="st">&quot;classification&quot;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>knn_fit <span class="ot">&lt;-</span> <span class="fu">workflow</span>() <span class="sc">|&gt;</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">add_recipe</span>(knn_recipe) <span class="sc">|&gt;</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">add_model</span>(knn_spec) <span class="sc">|&gt;</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">fit</span>(<span class="at">data =</span> football_train)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>knn_fit</span></code></pre></div>
+<div class="output display_data">
+<pre><code>== Workflow [trained] ==========================================================
+Preprocessor: Recipe
+Model: nearest_neighbor()
+
+-- Preprocessor ----------------------------------------------------------------
+2 Recipe Steps
+
+* step_scale()
+* step_center()
+
+-- Model -----------------------------------------------------------------------
+
+Call:
+kknn::train.kknn(formula = ..y ~ ., data = data, ks = min_rows(4,     data, 5), kernel = ~&quot;rectangular&quot;)
+
+Type of response variable: nominal
+Minimal misclassification: 0.3572985
+Best kernel: rectangular
+Best k: 4</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Finally, we will check our accuracy with the testing data</p>
+</div>
+<div class="cell code" data-execution_count="13"
+data-vscode="{&quot;languageId&quot;:&quot;r&quot;}">
+<div class="sourceCode" id="cb18"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>test_result <span class="ot">&lt;-</span> <span class="fu">predict</span>(knn_fit, football_test) <span class="sc">|&gt;</span> <span class="fu">bind_cols</span>(football_test)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>accuracy <span class="ot">&lt;-</span> test_result <span class="sc">|&gt;</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">metrics</span>(<span class="at">truth =</span> position, <span class="at">estimate =</span> .pred_class) <span class="sc">|&gt;</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(.metric <span class="sc">==</span> <span class="st">&quot;accuracy&quot;</span>)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>accuracy</span></code></pre></div>
+<div class="output display_data">
+<table class="dataframe">
+<caption>A tibble: 1 x 3</caption>
+<thead>
+	<tr><th scope=col>.metric</th><th scope=col>.estimator</th><th scope=col>.estimate</th></tr>
+	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+	<tr><td>accuracy</td><td>multiclass</td><td>0.5483871</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<section id="discussion" class="cell markdown">
+<h2>Discussion</h2>
+<h3 id="summary-of-findings">Summary of Findings</h3>
+<p>The analysis delved into predicting player positions in the UEFA
+Champions League using performance metrics such as goals scored,
+distance covered, passes attempted, tackles, and attempted clearances.
+Leveraging the K-Nearest Neighbors (KNN) classification model, the study
+aimed to classify players into positions based on these metrics. Through
+data preprocessing, model tuning, and visualization, distinct clusters
+emerged, revealing discernible patterns between defenders and
+midfielders.</p>
+<h3 id="expectations-vs-findings">Expectations vs. Findings</h3>
+<p>The observed patterns largely aligned with expectations. Defenders
+exhibited higher attempted clearances, while midfielders displayed more
+tackles. These trends correspond well with traditional positional roles
+in football. However, there were nuances and overlaps, such as
+midfielders occasionally exhibiting defensive traits and vice versa,
+highlighting the evolving nature of player roles.</p>
+<h3 id="potential-impact-of-findings">Potential Impact of Findings</h3>
+<p>Such findings possess substantial implications across various
+domains. For coaches and scouts, understanding these key performance
+indicators aids in player recruitment and strategic planning. It offers
+nuanced insights into player roles, enhancing tactical formations and
+team strategies. Furthermore, for fans, analysts, and fantasy football
+enthusiasts, it deepens the understanding of player profiles, enriching
+the spectator experience.</p>
+<h3 id="future-research-and-questions">Future Research and
+Questions</h3>
+<p>The analysis raises intriguing avenues for further exploration. It
+prompts inquiries into the influence of additional factors like player
+age, playing style, or team tactics on the relationships between
+performance metrics and player positions. Additionally, extending the
+model to incorporate a broader array of performance metrics could refine
+position classification, leading to more sophisticated machine learning
+models.</p>
+</section>
+<section id="references" class="cell markdown">
+<h2>References</h2>
+<p>Azmine Toushik Wasi. 2022. UEFA Champions League 2021-2022 Player
+Statistics. Kaggle. Retrieved from UEFA Champions League 2021-2022
+Dataset</p>
+<p>UEFA Champions League. (n.d.). In Wikipedia. Retrieved from <a
+href="https://en.wikipedia.org/wiki/UEFA_Champions_League"
+class="uri">https://en.wikipedia.org/wiki/UEFA_Champions_League</a></p>
+<p>2021–22 UEFA Champions League. (n.d.). In Wikipedia. Retrieved from
+<a href="https://en.wikipedia.org/wiki/2021–22_UEFA_Champions_League"
+class="uri">https://en.wikipedia.org/wiki/2021–22_UEFA_Champions_League</a></p>
+</section>
+</body>
+</html>
